@@ -1,0 +1,32 @@
+Annteckningar:
+
+Dance by moving forward
+
+Spot lights -> worm stops every so often
+
+Blue and pink pattern for worms
+
+Problems:
+Floor consists of blue and pink grids.
+
+The worm covers 6 tiles where first half is blue and second half is pink, matching the floor grids.
+
+The worms move like the snake game
+
+During every beat, you can redirect the worm.
+
+When the spotlights are turned on, the worms stop for that beat. You cannot redirect them at this beat.
+
+You get points based on the placement of the worms
+
+One point for each part of the worm matching the floor, blue part on the blue tile and pink part on the red tile.
+
+Worms collide, you get zero points.
+
+Input of the dancefloor grid: 10 to 25 both Height and Width
+
+How many times the lights are turned on: 4 < T < 10
+
+int T, how many times the light turns on
+
+N represents the N lines, describing the snake.
